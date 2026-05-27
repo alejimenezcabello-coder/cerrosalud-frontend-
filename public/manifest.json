@@ -1,0 +1,19 @@
+{
+  "name": "CerroSalud",
+  "short_name": "CerroSalud",
+  "description": "Salud primaria digital para el cerro de Viña del Mar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1B6B3A",
+  "theme_color": "#1B6B3A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "es-CL"
+}
