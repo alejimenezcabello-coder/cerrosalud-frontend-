@@ -11,18 +11,10 @@ input, textarea, select {
   color: #1A1A1A !important;
   -webkit-text-fill-color: #1A1A1A !important;
   opacity: 1 !important;
-  background-color: #ffffff !important;
 }
 
 input::placeholder, textarea::placeholder {
   color: #888888 !important;
   -webkit-text-fill-color: #888888 !important;
   opacity: 1 !important;
-  font-size: 16px !important;
-}
-
-label {
-  font-size: 16px !important;
-  color: #1A1A1A !important;
-  font-weight: 600 !important;
 }
