@@ -1,56 +1,28 @@
-@import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Fix botones iPhone */
-button, [role="button"] {
-  -webkit-appearance: none;
-  touch-action: manipulation;
-  cursor: pointer;
-}
-button:active {
-  opacity: 0.85;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
 }
 
-/* iOS Safari fix */
-button {
-  cursor: pointer;
-  -webkit-appearance: none;
-  touch-action: manipulation;
+input, textarea, select {
+  font-size: 18px !important;
+  color: #1A1A1A !important;
+  -webkit-text-fill-color: #1A1A1A !important;
+  opacity: 1 !important;
+  background-color: #ffffff !important;
 }
 
-/* Fix definitivo iOS Safari */
-button, a, [onClick] {
-  cursor: pointer !important;
-  -webkit-appearance: none !important;
-  touch-action: manipulation !important;
-  user-select: none !important;
-  -webkit-user-select: none !important;
+input::placeholder, textarea::placeholder {
+  color: #888888 !important;
+  -webkit-text-fill-color: #888888 !important;
+  opacity: 1 !important;
+  font-size: 16px !important;
+}
+
+label {
+  font-size: 16px !important;
+  color: #1A1A1A !important;
+  font-weight: 600 !important;
 }
