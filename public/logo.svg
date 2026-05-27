@@ -1,0 +1,8 @@
+<svg width="180" height="44" viewBox="0 0 180 44" xmlns="http://www.w3.org/2000/svg">
+  <path d="M4 40 L18 14 L28 24 L40 6 L52 40 Z" fill="white" fill-opacity="0.9"/>
+  <circle cx="40" cy="7" r="7" fill="white" fill-opacity="0.9"/>
+  <rect x="38" y="3" width="4" height="8" rx="1" fill="#16a34a"/>
+  <rect x="35" y="6" width="10" height="4" rx="1" fill="#16a34a"/>
+  <text x="62" y="20" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="white">CerroSalud</text>
+  <text x="62" y="34" font-family="system-ui,sans-serif" font-size="9" fill="white" opacity="0.8">CECOSF Santa Julia · Viña del Mar</text>
+</svg>
